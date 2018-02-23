@@ -9,7 +9,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
@@ -37,7 +37,7 @@
       <file leaf-file-name="Curso.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Model/Curso.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="0">
               <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="9" />
               <folding />
             </state>
@@ -47,21 +47,45 @@
       <file leaf-file-name="testaCurso.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testaCurso.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="85">
+              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CursoDAO.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CursoDAO.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/DAO/CursoDAO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="619">
+              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding>
-                <marker date="1519179050737" expanded="true" signature="480:519" ph="insert into cursos... " />
-                <marker date="1519179050737" expanded="true" signature="480:535" ph="insert into cursos... " />
+                <marker date="1519350361676" expanded="true" signature="480:519" ph="insert into cursos... " />
+                <marker date="1519350361676" expanded="true" signature="480:535" ph="insert into cursos... " />
+                <marker date="1519350361676" expanded="true" signature="966:1009" ph="select * fro... WHERE" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="curso_inserir.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/curso_inserir.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="curso_pesquisar.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/curso_pesquisar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+              <folding>
+                <marker date="1519352538909" expanded="true" signature="745:762" ph="..." />
+                <marker date="1519352538909" expanded="true" signature="745:768" ph="..." />
               </folding>
             </state>
           </provider>
@@ -78,8 +102,10 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/database/banco.sql" />
         <option value="$PROJECT_DIR$/App/Model/Curso.php" />
+        <option value="$PROJECT_DIR$/view/curso_inserir.php" />
         <option value="$PROJECT_DIR$/App/DAO/CursoDAO.php" />
         <option value="$PROJECT_DIR$/testaCurso.php" />
+        <option value="$PROJECT_DIR$/view/curso_pesquisar.php" />
       </list>
     </option>
   </component>
@@ -139,7 +165,18 @@
             <path>
               <item name="app_cursos" type="b2602c69:ProjectViewProjectNode" />
               <item name="app_cursos" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="app_cursos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_cursos" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="app_cursos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_cursos" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -178,16 +215,16 @@
       <option name="presentableId" value="Default" />
       <updated>1519175702148</updated>
       <workItem from="1519175703478" duration="3976000" />
-      <workItem from="1519179974309" duration="146000" />
+      <workItem from="1519179974309" duration="341000" />
+      <workItem from="1519342058590" duration="8959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4122000" />
+    <option name="totallyTimeSpent" value="13276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -231,6 +268,50 @@
     <entry file="file://$PROJECT_DIR$/database/banco.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
+          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Model/Curso.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testaCurso.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/DAO/CursoDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <marker date="1519350361676" expanded="true" signature="480:519" ph="insert into cursos... " />
+            <marker date="1519350361676" expanded="true" signature="480:535" ph="insert into cursos... " />
+            <marker date="1519350361676" expanded="true" signature="966:1009" ph="select * fro... WHERE" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/banco.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
           <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
           <folding />
         </state>
@@ -257,16 +338,17 @@
         <state relative-caret-position="527">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <marker date="1519179050737" expanded="true" signature="480:519" ph="insert into cursos... " />
-            <marker date="1519179050737" expanded="true" signature="480:535" ph="insert into cursos... " />
+            <marker date="1519350361676" expanded="true" signature="480:519" ph="insert into cursos... " />
+            <marker date="1519350361676" expanded="true" signature="480:535" ph="insert into cursos... " />
+            <marker date="1519350361676" expanded="true" signature="966:1009" ph="select * fro... WHERE" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/App/Model/Curso.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -279,29 +361,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testaCurso.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="119">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Model/Curso.php">
+    <entry file="file://$PROJECT_DIR$/testaCurso.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="85">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/DAO/CursoDAO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="619">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
-            <marker date="1519179050737" expanded="true" signature="480:519" ph="insert into cursos... " />
-            <marker date="1519179050737" expanded="true" signature="480:535" ph="insert into cursos... " />
+            <marker date="1519350361676" expanded="true" signature="480:519" ph="insert into cursos... " />
+            <marker date="1519350361676" expanded="true" signature="480:535" ph="insert into cursos... " />
+            <marker date="1519350361676" expanded="true" signature="966:1009" ph="select * fro... WHERE" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/curso_inserir.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/curso_pesquisar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding>
+            <marker date="1519352538909" expanded="true" signature="745:762" ph="..." />
+            <marker date="1519352538909" expanded="true" signature="745:768" ph="..." />
           </folding>
         </state>
       </provider>

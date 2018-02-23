@@ -29,10 +29,36 @@ class CursoDAO
             $insercao->bindValue(":nome", $curso->getNome());
             $insercao->bindValue(":valor", $curso->getValor());
             $insercao->execute();
+            return true;
 
         } catch (\PDOException $erro){
             echo $erro->getMessage();
+            return false;
         }
+    }
+
+    public function pesquisar($curso){
+        $sql="select * from cursos WHERE  nome LIKE :nome";
+
+        try{
+            $pesquisa = $this->conexao->prepare($sql);
+            $pesquisa->bindValue(":nome", "%".$curso->getNome()."%");
+            $pesquisa->execute();
+            $resultado=$pesquisa->fetchAll();
+            $cursos=[];
+            foreach ($resultado as $item){
+                $curso=new \App\Model\Curso();
+                $curso->setId($item['id']);
+                $curso->setNome($item['nome']);
+                $curso->setValor($item['valor']);
+                $cursos[]=$curso;
+            }
+            return $cursos;
+
+        }catch (\PDOException $erro){
+            echo $erro->getMessage();
+        }
+
     }
 
 }
